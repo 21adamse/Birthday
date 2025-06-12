@@ -26,6 +26,10 @@ font3=pygame.font.SysFont("Times New Roman",30)
 
 text1=font1.render("to an amazing",True,("red"))
 text2=font1.render("grandpa",True,"red")
+text3=font2.render("Thank you for everything you do for me",True,"blue")
+text4=font3.render("Did you know? 'Birthdays' were first celebrated",True,"white")
+text5=font3.render("by the ancient egyptians, but instead they celebrated",True,"white")
+text6=font3.render("the Pharaho's corination day",True,"white")
 
 
 while True:
@@ -41,9 +45,13 @@ while True:
     time.sleep(3)
 
     screen.blit(image2,(0,0))
+    screen.blit(text3,(130,100))
     pygame.display.update()
     time.sleep(3)
 
     screen.blit(image3,(0,0))
+    screen.blit(text4,(50,0))
+    screen.blit(text5,(50,50))
+    screen.blit(text6,(50,100))
     pygame.display.update()
     time.sleep(3)
